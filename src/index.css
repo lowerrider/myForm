@@ -1,13 +1,19 @@
 @font-face {
   font-family: 'SB Sans Interface';
   src: local('SB Sans Interface'),
-    url('./fonts/SBSansInterface.ttf') format('truetype');
+    url('./fonts/SBSansInterface.ttf') format('truetype'),
+    url('./fonts/SBSansInterface.woff2') format('woff2'),
+    url('./fonts/SBSansInterface.woff') format('woff'),
+    url('./fonts/SBSansInterface.eot') format('embedded-opentype');
 }
 
 @font-face {
   font-family: 'SB Sans Interface Bold';
   src: local('SB Sans Interface Bold'),
-    url('./fonts/SBSansInterfaceBold.ttf') format('truetype');
+    url('./fonts/SBSansInterfaceBold.ttf') format('truetype'),
+    url('./fonts/SBSansInterfaceBold.woff2') format('woff2'),
+    url('./fonts/SBSansInterfaceBold.woff') format('woff'),
+    url('./fonts/SBSansInterfaceBold.eot') format('embedded-opentype');
 }
 
 body {
