@@ -1,0 +1,17 @@
+.userLink {
+  text-decoration: none;
+  margin: 0 18px 0 6px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #5558fa;
+}
+
+@media screen and (max-width: 392px) {
+  .icon {
+    display: none;
+  }
+  .userLink {
+    margin: 0 18px 0 0;
+  }
+}

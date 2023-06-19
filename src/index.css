@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'SB Sans Interface';
+  src: local('SB Sans Interface'),
+    url('./fonts/SBSansInterface.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SB Sans Interface Bold';
+  src: local('SB Sans Interface Bold'),
+    url('./fonts/SBSansInterfaceBold.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "SB Sans Interface";
+}
+
+h3, p {
+  margin: 0;
+}

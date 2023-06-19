@@ -1,0 +1,16 @@
+.mainform {
+  margin-bottom: 48px;
+  width: 400px;
+}
+
+@media screen and (max-width: 450px) {
+  .mainform {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .mainform {
+    width: 200px;
+  }
+}

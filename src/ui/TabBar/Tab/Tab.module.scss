@@ -1,0 +1,41 @@
+.activeTab {
+  .tab {
+    background: #5558fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .whiteRing {
+      background: #ffffff;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+    }
+  }
+
+  .number {
+    color: #5558fa;
+  }
+}
+
+.notActiveTab {
+  .tab {
+    background: #a6a6a6;
+  }
+
+  .number {
+    color: #a6a6a6;
+  }
+}
+
+.tab {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.tabContainer {
+  text-align: center;
+  margin-top: -4px;
+}

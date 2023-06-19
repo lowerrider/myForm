@@ -1,0 +1,19 @@
+.container {
+  width: 300px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 0 80px;
+}
+
+@media screen and (max-width: 990px) {
+  .container {
+    width: 100%;
+  }
+  .buttons {
+    margin: 100px 0 0;
+  }
+}

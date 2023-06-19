@@ -1,0 +1,25 @@
+.avatar {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: #d5e4f7;
+  border-radius: 50%;
+  margin-right: 24px;
+}
+
+.initial {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+@media screen and (max-width: 360px) {
+  .avatar {
+    background-color: #fff;
+  }
+}

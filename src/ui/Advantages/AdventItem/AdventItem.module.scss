@@ -1,0 +1,19 @@
+.buttonRemove {
+  position: absolute;
+  background: #ffffff;
+  border: #ffffff;
+  cursor: pointer;
+  top: 9px;
+  right: -40px;
+}
+
+.adventItem {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 990px) {
+  .adventItem {
+    width: calc(100% - 40px);
+  }
+}

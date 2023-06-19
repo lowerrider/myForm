@@ -1,0 +1,35 @@
+.label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  display: block;
+  color: #333333;
+}
+
+.formInput {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  padding: 12px;
+  width: calc(100% - 24px);
+  &:focus {
+    outline: none;
+    border: 1px solid #5558fa;
+  }
+}
+
+.inputContainer {
+  margin-top: 24px;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.errorMsg {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: red;
+  margin-top: 8px;
+}

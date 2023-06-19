@@ -1,0 +1,59 @@
+.container {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  background: #ffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.focus {
+  border: 1px solid #5558fa;
+}
+
+.input {
+  border: 0;
+  padding: 0;
+  padding: 12px;
+  background: #ffff;
+  border-radius: 4px;
+}
+
+.select {
+  width: 100%;
+  position: relative;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 25px 0 8px;
+  display: block;
+  color: #333333;
+}
+
+.icon {
+  margin-right: 16px;
+}
+
+.optionsContainer {
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  position: absolute;
+  width: inherit;
+}
+
+.option {
+  padding: 8px 12px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  cursor: pointer;
+}
+
+.error {
+  border: 1px solid red;
+}

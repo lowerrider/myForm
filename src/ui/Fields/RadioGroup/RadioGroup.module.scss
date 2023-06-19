@@ -1,0 +1,19 @@
+.container {
+  margin-top: 24px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.radioGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  color: red;
+}
