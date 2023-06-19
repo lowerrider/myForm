@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import MainPage from "./pages/MainPage/MainPage";
 import CreateFormPage from "./pages/CreateFormPage/CreateFormPage";
 import { ROUTES } from "./constants/constants";
@@ -12,11 +12,11 @@ import "./index.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path={ROUTES.index} element={<MainPage />} />
         <Route path={ROUTES.createForm} element={<CreateFormPage />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
