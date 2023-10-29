@@ -1,5 +1,5 @@
 # My Form Project
-#### Проект с использованием различных вариацей форм, которые часто встречаются в работе. Так же применяны разные виды валидации и таб бар.
+#### A project using various variations of forms that are often found in work. Different types of validation and a tab bar are also used.
 [Project link/URL](https://lowerrider.github.io/myForm/)
 
 ## Technology stack
