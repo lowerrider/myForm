@@ -10,7 +10,7 @@ function HeaderDescription({ name }) {
         <UserLink socialName="GitHub" href="https://github.com/lowerrider" />
         <UserLink
           socialName="Resume"
-          href="https://hh.ru/resume/8ffc6212ff09dfcb850039ed1f566c39725332"
+          href="https://hh.ru/resume/a5a837d3ff0c6faaf40039ed1f424365565157"
         />
       </div>
     </div>
